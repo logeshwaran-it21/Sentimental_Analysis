@@ -1,0 +1,138 @@
+/*.app-container {
+  position: relative;
+}
+
+.project-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #3498db;
+  text-shadow: 2px 2px 4px #2c3e50, 4px 4px 8px #34495e;
+}*/
+
+/*.project-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(45deg, #f39c12, #e74c3c);
+  background-size: 200% 200%;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: gradientAnimation 3s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}*/
+
+/*.emoji-box {
+  background-color: #343a40;
+  border: 1px solid #495057; 
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.highlight-positive {
+  background-color: #28a745; 
+  border-color: #28a745; 
+}
+
+.highlight-negative {
+  background-color: #dc3545;
+  border-color: #dc3545; 
+}
+
+.history {
+  margin-top: 2rem;
+}
+
+.history-item {
+  background-color: #343a40;
+  border: 1px solid #495057;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}*/
+
+
+.app-container {
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #1a202c;
+  color: #e2e8f0;
+}
+
+.project-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.spinner {
+  margin: 0 auto;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.history-item {
+  background-color: #2d3748;
+  margin-top: 8px;
+}
+
+.dark-mode-toggle {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  background: #4a5568;
+  color: white;
+}
+
+.result-box {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.highlight-positive {
+  background-color: #38a169;
+}
+
+.highlight-negative {
+  background-color: #e53e3e;
+}
